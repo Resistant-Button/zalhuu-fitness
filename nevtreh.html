@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Zalhuu Fitnes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: #cae1f5;
+        }
+
+
+        .topnav {
+            overflow: hidden;
+            background-color: #1D3557;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 80%;
+        }
+
+        .topnav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .topnav a:hover{
+            color:black
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+
+        .container {
+            font-size: 24px;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .registerbtn {
+            background-color: #1D3557;
+            color: white;       
+            margin: 2px 5px;
+            cursor: pointer;
+            width: 310px;
+            border: none;
+            height: 55px;
+            font-family: "Press start 2P";
+            border-radius: 1000px;
+        }
+        .btn{
+            display: flex;
+        }
+
+        .all {
+            display: flex;
+            font-family: "Press start 2P";
+            padding-left: 9%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a style="float: right;  padding-right: 107px;">Hэвтрэх</a>
+        <a href="#news" style="float: right; ">Мэдээлэл</a>
+        <a href="#news" style="float: right;">Сонголт</a>
+        <a href="#contact" style="float: right;">Танилцуулга</a>
+        <a href="#contact" style="float: right;">Нүүр</a>
+        <a href="#about" style="padding-left: 107px;">Бүртгэлийн хаяг</a>
+    </div>
+
+    <div class="all">
+        <div class="container">
+            <h1>Нэвтрэх</h1>
+            <label for="uname"><b>Хэрэглэгчийн нэр</b></label><br>
+            <input type="text" name="uname" required
+                style="width: 640px; height: 82;border-radius: 1000px;background-color: #0077B6; opacity: 50%;border: none;font-size: 35px;"><br>
+
+            <label for="psw"><b>Нууц үг</b></label><br>
+            <input type="password" name="psw" required
+                style="width: 640px; height: 82;border-radius: 1000px;background-color: #0077B6; opacity: 50%;border: none;font-size: 35px;"><br><br>
+    
+            <div class="btn">
+                <div>
+                    <button type="submit" class="registerbtn">Нэвтрэх</button>
+                </div>
+                <div>
+                    <button type="submit" class="registerbtn">Бүртгүүлэх</button>
+                </div>
+            </div>
+        </div>
+        <div style="padding-left: 9%; padding-top: 90px;">
+            <img src="computer.png" width="" height="100%" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
