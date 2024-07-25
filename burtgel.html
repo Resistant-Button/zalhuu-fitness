@@ -1,0 +1,178 @@
+<html>
+
+<head>
+    <title>Zalhuu Fitness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: #cae1f5;
+            font-family: "Press start 2P";
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #1D3557;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 80%;
+        }
+
+        .topnav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .topnav a:hover {
+            color: black
+        }
+
+        h1 {
+            font-size: 65px;
+            font-family: "Press start 2P";
+            padding-left: 180px;
+            padding-top: 90px;
+            opacity: 80%;
+        }
+
+        .image {
+            margin-left: 300px;
+            margin-top: 40px;
+            height: 350px;
+
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .containert {
+            padding-left: 280px;
+            padding-top: 99px;
+            font-size: 20;
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=number] {
+            width: 550px;
+            height: 64px;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border-radius: 1000px;
+            background-color: #0077B6;
+            opacity: 50%;
+            font-size: 20px;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus,
+        input[type=number]:focus {
+            background-color: #c3ddee;
+        }
+
+        .registerbtn {
+            background-color: #1D3557;
+            color: white;
+            padding: 16px 0px;
+            margin: 10px 110px;
+            cursor: pointer;
+            width: 310px;
+            height: 55px;
+            font-family: "Press start 2P";
+            border-radius: 1000px;
+        }
+
+        .registerbtn:hover {
+            opacity: 1;
+        }
+
+        .all {
+            display: flex;
+
+        }
+
+        .zurmal {
+            border: none;
+            border-radius: 100%;
+            font-size: 24px;
+            background-color: #1D3557;
+            color: white;
+            width: 80;
+            height: 80;
+            position: absolute;
+            left: 550;
+            top: 590;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a style="float: right;  padding-right: 107px;">Hэвтрэх</a>
+        <a href="#news" style="float: right; ">Мэдээлэл</a>
+        <a href="#news" style="float: right;">Сонголт</a>
+        <a href="#contact" style="float: right;">Танилцуулга</a>
+        <a href="#contact" style="float: right;">Нүүр</a>
+        <a href="#about" style="padding-left: 107px;">Бүртгэлийн хаяг</a>
+    </div>
+    <div class="all">
+        <div>
+            <h1>БҮРТГҮҮЛЭХ</h1>
+            <img src="zurag.png" alt="" class="image">
+            <div ><button class="zurmal"> <i class="material-icons">edit</i></button>
+       </div> </div>
+       
+        <div class="containert">
+
+            <label for="email"><b>Хэрэглэгчийн нэр</b></label><br><br>
+            <input type="text" name="email" required><br><br>
+
+            <label for="psw"><b>Нас</b></label><br><br>
+            <input type="number" name="number" required><br><br>
+
+            <label for="psw"><b>Шинэ нууц үг</b></label><br><br>
+            <input type="password" value="Нууц үгээ оруулна уу." id="myInput"><br><br>
+            
+            <label for="psw-repeat"><b>Давтан нууц үг</b></label><br><br>
+            <input type="password" value="нууц үгээ баталгаажуулж оруулна уу." id="myInput1"><br>
+
+            <input type="checkbox" style="width: 20;height: 20;" onclick="myFunction(),myFunction1()">Show
+            Password<br><br>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myInput");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } else {
+                        x.type = "password";
+                    }
+                }
+                function myFunction1() {
+                    var x = document.getElementById("myInput1");
+                    if (x.type === "password") {
+                        x.type = "text";
+                    } else {
+                        x.type = "password";
+                    }
+                }
+            </script>
+            <button type="submit" class="registerbtn">Болсон!</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
