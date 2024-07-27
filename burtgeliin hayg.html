@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>Zalhuu Fitness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: #cae1f5;
+            font-family: "Press start 2P";
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #1D3557;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 80%;
+        }
+
+        .topnav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .topnav a:hover {
+            color: black
+        }
+
+        h1 {
+            font-size: 45px;
+            font-family: "Press start 2P";
+            padding-left: 180px;
+            padding-top: 80px;
+            opacity: 70%;
+        }
+
+        .image {
+            margin-left: 350px;
+            margin-top: 40px;
+            height: 290px;
+
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .containert {
+            padding-left: 280px;
+            padding-top: 99px;
+            font-size: 20;
+
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=number] {
+            width: 500px;
+            height: 54px;
+            margin: 5px 0 22px 0;
+            font-size: 20px;
+            background-color: #cae1f5;
+        }
+
+        .all {
+            display: flex;
+
+        }
+
+        .zurmal {
+            border: none;
+            border-radius: 100%;
+            font-size: 24px;
+            background-color: #1D3557;
+            color: white;
+            width: 70;
+            height: 70;
+            position: absolute;
+            left: 570;
+            top: 470;
+        }
+
+        .tem {
+            color: #1D3557;
+            font-size: 25;
+            margin-left: 380;
+            margin-top: 50;
+        }
+
+        .hem {
+
+            font-size: 20px;
+            background-color: #cae1f5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a style="float: right;  padding-right: 107px;">Hэвтрэх</a>
+        <a href="#news" style="float: right; ">Мэдээлэл</a>
+        <a href="#news" style="float: right;">Сонголт</a>
+        <a href="#contact" style="float: right;">Танилцуулга</a>
+        <a href="#contact" style="float: right;">Нүүр</a>
+        <a href="#about" style="padding-left: 107px;">Бүртгэлийн хаяг</a>
+    </div>
+    <div class="all">
+        <div>
+            <h1>БҮРТГЭЛИЙН ХАЯГ </h1>
+            <img src="zurag.png" alt="" class="image">
+            <button class="zurmal"> <i class="material-icons">edit</i></button>
+            <div class="tem">Шатаасан<br>зүйлийн<br>тэмдэглэл:<br><br><br>~2 хуушуур<br>~3 зайрмаг<br>~1 самар...</div>
+        </div>
+
+        <div class="containert">
+
+            <label for="name"><b>Хэрэглэгчийн нэр</b></label><br>
+            <input type="text"><br>
+
+            <label for="age"><b>Нас</b></label><br>
+            <input type="number"><br>
+
+            <label for="weight"><b>Жин</b></label><br>
+            <input type="text" value="кг"><br>
+
+            <label for="height"><b>Өндөр</b></label><br>
+            <input type="text" value="см" ><br>
+
+        </div>
+        <div class="hem">
+            <label for="name" style="width: 990px;height: 554px; margin-top: 56px;"><b>Таны хэвийн жин</b></label><br>
+            <input type="text"><br>
+        </div>
+    </div>
+</body>
+
+</html>
